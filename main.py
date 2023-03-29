@@ -1,1 +1,7 @@
-#WRITE YOUR CODE IN THIS FILE
+def hasL(w):
+ numL = 0
+ for i in range( 0, len(w)):
+    if w == "l":
+        print(True)
+    else:
+        print(False)
