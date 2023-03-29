@@ -2,6 +2,6 @@ def hasL(w):
  numL = 0
  for i in range( 0, len(w)):
     if w == "l":
-        print(True)
+        return True
     else:
-        print(False)
+        return False
